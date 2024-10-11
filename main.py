@@ -96,8 +96,8 @@ def prepare_for_meeting(company, person_name, person_position, website=None):
 # Example usage
 if __name__ == "__main__":
     prepare_for_meeting(
-        company="Tesla",
-        person_name="Elon Musk",
+        company="CrewAI",
+        person_name="Joao Moura",
         person_position="CEO",
-        website="https://www.tesla.com"
+        website="https://www.crewai.com"
     )
