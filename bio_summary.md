@@ -1,17 +1,11 @@
-**Joao (Joe) Moura - Founder and CEO of CrewAI**
+Joao Moura, often referred to as Joe Moura, is the Founder and Chief Executive Officer of CrewAI, a pioneering startup focused on developing a multi-agent platform that enables users to build, deploy, and manage teams of AI agents. With nearly 20 years of experience in the software and AI engineering fields, Joao has established himself as a dynamic leader in the technology sector.
 
-Joao Moura, commonly known as Joe, is a highly accomplished entrepreneur and technology leader, renowned for his expertise in artificial intelligence and multi-agent systems. He is the founder and CEO of CrewAI, a pioneering multi-agent orchestration framework designed to streamline AI collaboration across various industries. Under his leadership, CrewAI has emerged as a key player in the AI landscape, providing innovative solutions that enhance the efficiency and effectiveness of AI agents.
+Before founding CrewAI, Joao held the position of Director of AI Engineering at Clearbit, a company known for its data enrichment solutions, which was acquired by HubSpot. His extensive background in AI and software engineering has equipped him with the skills necessary to drive innovation at CrewAI, where he is committed to automating complex workflows through collaboration among multiple AI agents.
 
-Prior to founding CrewAI, Joao held significant positions at notable companies, including Clearbit, which was acquired by HubSpot. His extensive experience in the tech industry spans nearly two decades, during which he has cultivated a deep understanding of software engineering and product development. As an open-source enthusiast, Joao is passionate about creating tools and resources that empower developers and organizations to leverage AI effectively.
+Under Joao's leadership, CrewAI has recently made headlines by securing $18 million in a Series A funding round, aimed at enhancing its AI automation solutions and expanding its market reach. The company launched its Multi-Agentic Platform, which is designed to support over 10 million AI agents, allowing enterprises to leverage generative AI for improved efficiency and productivity.
 
-Joao Moura is also an active public speaker, frequently sharing his insights and knowledge at industry conferences and events. His contributions to the AI community include educational resources and tutorials that guide users in utilizing CrewAI's platform and agents. He is known for his commitment to fostering collaboration among AI professionals and enthusiasts, engaging with the community through various platforms, including live sessions and social media.
+Joao is not only an accomplished executive but also a public speaker and open-source enthusiast. He actively shares his insights and perspectives on AI and technology through various platforms, including LinkedIn, Twitter, and YouTube. His contributions to the field of AI are further exemplified by his involvement in creating frameworks for orchestrating autonomous AI agents.
 
-In addition to his work with CrewAI, Joao has been involved in numerous projects aimed at advancing AI technologies. He has a strong presence on social media, where he shares updates about CrewAI's developments, industry trends, and his thoughts on the future of AI. His vision for the future includes a world where companies operate seamlessly with the aid of autonomous AI agents, transforming the way businesses function.
+For more about Joao Moura's professional journey and insights into the AI landscape, you can find him on his [LinkedIn profile](https://br.linkedin.com/in/joaomdmoura) and [Twitter account](https://twitter.com/joaomdmoura). He also shares his thoughts on AI and multi-agent systems in his [Substack](https://shomik.substack.com/p/the-future-of-ai-agents-joao-moura) and various interviews available on platforms like YouTube.
 
-Joao Moura's work is not only focused on building technology but also on creating a vibrant community of AI developers and users. He has actively participated in events such as "Llamapalooza NYC" and has collaborated with other entities in the AI landscape to further enhance the capabilities of AI systems.
-
-For more insights and updates, you can follow Joao Moura on his social media profiles:
-- [Twitter](https://twitter.com/joaomdmoura)
-- [LinkedIn](https://www.linkedin.com/in/joaomdmoura)
-
-Through his leadership at CrewAI and his ongoing contributions to the AI field, Joao Moura continues to shape the future of artificial intelligence.
+Joao Moura's vision for CrewAI positions the company as a key player in the rapidly evolving AI automation market, making significant strides toward the future of AI agents and their applications in enterprise settings.
