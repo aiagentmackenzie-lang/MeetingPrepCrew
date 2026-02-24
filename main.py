@@ -3,9 +3,18 @@ from crewai import Agent, Task, Crew, Process
 from crewai_tools import SerperDevTool  # Assuming SerperDevTool is your preferred web search tool
 from langchain_openai import ChatOpenAI  # Import ChatOpenAI for LLM setup
 
-# Setting environment variables (make sure to replace these with your actual keys)
-os.environ["SERPER_API_KEY"] = ""
-os.environ["OPENAI_API_KEY"] = ""
+# Load API keys from environment variables
+# Set these in your environment before running:
+# export OPENAI_API_KEY="your-key-here"
+# export SERPER_API_KEY="your-key-here"
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "")
+os.environ["SERPER_API_KEY"] = os.getenv("SERPER_API_KEY", "")
+
+# Verify API keys are set
+if not os.environ["OPENAI_API_KEY"]:
+    raise ValueError("OPENAI_API_KEY environment variable not set")
+if not os.environ["SERPER_API_KEY"]:
+    raise ValueError("SERPER_API_KEY environment variable not set")
 
 # Create search tool
 search_tool = SerperDevTool()
