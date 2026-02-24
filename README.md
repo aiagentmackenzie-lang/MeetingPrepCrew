@@ -1,129 +1,93 @@
 # Meeting Preparation Crew
 
-This project uses `CrewAI` to help you prepare for meetings by researching both the company and the person you are meeting. The agents in this project gather relevant information such as company news, product launches, social media activity (specifically on X, formerly Twitter), and the professional background of the individual you are meeting.
+This project leverages **CrewAI** to streamline your meeting preparation by researching both the company and the individual you are meeting. The agents gather critical information such as company news, product launches, social media activity (specifically on X), and the professional background of your contact to ensure you are fully briefed.
 
 ## Features
 
-- **Company Research:** An AI agent gathers information about the company, including recent product launches, news, events, and social media presence on X.
-- **Personal Bio Research:** Another AI agent focuses on the professional background of the individual, including their career, current role, and social media activity on X.
-- **Markdown Output:** The bio research is saved in a markdown file (`bio_summary.md`) for easy reference.
-- **Customizable Topics:** Use the `topic` variables like `{company}`, `{person_name}`, `{person_position}`, and `{website}` to tailor the search and research.
+* **Company Research:** An AI agent gathers insights about the organization, including recent product launches, major news, events, and their social media presence.
+* **Personal Bio Research:** A specialized agent focuses on the professional background of the individual, including their career trajectory, current responsibilities, and recent activity on X.
+* **Markdown Output:** The research results are automatically saved to a markdown file (`bio_summary.md`) for quick reading or printing before your meeting.
+* **Customizable Inputs:** Easily tailor searches using variables like `{company}`, `{person_name}`, `{person_position}`, and `{website}`.
+
+---
 
 ## Project Structure
 
-The project is organized as follows:
-
-```plaintext
-├── main.py             # The main script that kicks off the CrewAI agents.
-├── README.md           # This documentation file.
-├── bio_summary.md      # Generated file containing a detailed bio of the person.
-└── requirements.txt    # List of dependencies (Optional: for future use)
-
+```text
+MeetingPrepCrew/
+├── main.py             # Main script to execute CrewAI agents
+├── README.md           # Project documentation
+├── bio_summary.md      # Generated research report
+└── requirements.txt    # Project dependencies
 Getting Started
-
 Prerequisites
 
-Ensure you have Python 3.7+ installed. You'll also need to install the following packages:
+Python 3.7+
 
-CrewAI
-openai
-serper
+Serper API Key: For web search functionality.
 
-You will need API keys for:
-
-Serper API for web search functionality.
-
-OpenAI API for language model access.
+OpenAI API Key: For language model processing.
 
 Installation
 
-Clone the repository (or create the folder manually):
+1. Clone the repository:
 
-git clone https://github.com/your-repo/MeetingPrepCrew.git
-
+Bash
+git clone [https://github.com/aiagentmackenzie-lang/MeetingPrepCrew.git](https://github.com/aiagentmackenzie-lang/MeetingPrepCrew.git)
 cd MeetingPrepCrew
+2. Set up a virtual environment (recommended):
 
-Set up a virtual environment (optional but recommended):
-
+Bash
 python -m venv venv
-source venv/bin/activate  # On Windows use: .\venv\Scripts\Activate
+# Windows:
+.\venv\Scripts\Activate
+# Mac/Linux:
+source venv/bin/activate
+3. Install dependencies:
 
-Install dependencies:
-
+Bash
 pip install crewai openai serper
-Set up API keys:
+4. Set up API keys:
 
-Set the API keys for Serper and OpenAI in your environment:
-
-Windows PowerShell:
-
+Bash
+# Windows PowerShell:
 $env:SERPER_API_KEY="your-serper-key"
 $env:OPENAI_API_KEY="your-openai-key"
 
-Mac/Linux:
-
+# Mac/Linux:
 export SERPER_API_KEY="your-serper-key"
 export OPENAI_API_KEY="your-openai-key"
-
 Running the Project
+Update the main.py script with the specific details of your upcoming meeting:
 
-Edit the main script (main.py) to include the details of the company and person you're meeting.
-
-Example:
-
+Python
 prepare_for_meeting(
     company="Tesla",
     person_name="Elon Musk",
     person_position="CEO",
-    website="https://www.tesla.com"
+    website="[https://www.tesla.com](https://www.tesla.com)"
 )
 Run the script:
 
+Bash
 python main.py
+Example Output (bio_summary.md)
 
-The result will print out in the console, and a markdown file (bio_summary.md) will be generated containing the bio summary of the person.
-
-Example Output
-Console Output
-plaintext
-
-Company Research Results for Tesla:
-- Recent News: ...
-- Product Launches: ...
-- Social Media Activity on X: ...
-
-Personal Bio Results for Elon Musk:
-- Professional Background: ...
-- Current Position: CEO at Tesla
-- Social Media (X) Activity: ...
-Markdown Output (bio_summary.md)
-
+Markdown
 # Bio Summary: Elon Musk
 
 - **Position**: CEO at Tesla
-- **Career**: Elon Musk has held positions at SpaceX, Tesla, and other companies...
-- **Social Media Activity**: Frequent updates on X (formerly Twitter) regarding SpaceX launches and Tesla products.
-
+- **Career**: Background spanning SpaceX, Tesla, and X.
+- **Social Media Activity**: Frequent updates regarding engineering milestones and corporate strategy.
 Customization
-
-You can modify the inputs to gather information for other companies or people by editing the prepare_for_meeting() function in main.py. Simply adjust the company, person_name, person_position, and website parameters to fit your meeting.
+You can modify the inputs for any meeting by editing the prepare_for_meeting() function parameters in main.py. This allows you to pivot between different industries or seniority levels seamlessly.
 
 Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. All contributions are welcome!
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
 License
 This project is licensed under the MIT License.
 
----
-
-### Key Sections in the README:
-
-- **Overview of the project** and its purpose.
-- **Features** explaining what the project does.
-- **Installation instructions** for dependencies and setting up API keys.
-- **Running the project** with example inputs and outputs.
-- **Customization** section explaining how users can modify the project for their own meetings.
-- **Contributing** section if others want to contribute to your project.
-
-Let me know if you need any further modifications to the README!
+Contact Information
+For further information or assistance, please contact the project maintainer at:
+aiagent.mackenzie@gmail.com
